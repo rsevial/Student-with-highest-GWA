@@ -12,4 +12,8 @@ with open("students_record.txt") as student_GWA:
 # Function to split the name and GWA
         name, GWA_str = line.strip().split(" , ")
 # If statement to get the name of student who got the highest GWA
+        GWA = float(GWA_str)
+        if GWA == highest_GWA:
+            highest_GWA = GWA
+            student_name = name
 # Print the name of the student with highest GWA and thier GWA
