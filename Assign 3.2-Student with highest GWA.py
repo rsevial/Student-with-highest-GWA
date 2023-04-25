@@ -8,6 +8,7 @@ with open("students_record.txt") as student_GWA:
     highest_GWA = 1.00
     student_name = ""
 # For loop to read each line of the text file
+    for line in student_GWA:
 # Function to split the name and GWA
 # If statement to get the name of student who got the highest GWA
 # Print the name of the student with highest GWA and thier GWA
