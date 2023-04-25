@@ -8,6 +8,11 @@
 
 The program will read a file containing the name of 20 students together with their GWA then outputs the name of the student who got the highest GWA including their GWA.
 
+
+#### Output:
+Student with highest GWA: student_name
+Student's GWA: highest_GWA
+
 ### Submmitted by:
 
 Rebekah Joy E. Sevial
