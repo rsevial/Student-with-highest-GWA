@@ -3,6 +3,7 @@
 # Student with highest GWA
 
 # Open text file that contains the name of the students with their GWA
+with open("students_record.txt") as student_GWA:
 # Initialize student name and their highest possible GWA 
 # For loop to read each line of the text file
 # Function to split the name and GWA
