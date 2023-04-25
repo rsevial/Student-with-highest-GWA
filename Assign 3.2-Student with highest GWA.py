@@ -4,8 +4,8 @@
 
 # Open text file that contains the name of the students with their GWA
 with open("students_record.txt") as student_GWA:
-# Initialize student name and their highest possible GWA 
-    highest_GWA = 1.00
+# Initialize student name and their lowest possible GWA 
+    highest_GWA = 5.00
     student_name = ""
 # For loop to read each line of the text file
     for line in student_GWA:
