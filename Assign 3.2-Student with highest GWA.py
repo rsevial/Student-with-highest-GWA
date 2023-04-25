@@ -17,3 +17,5 @@ with open("students_record.txt") as student_GWA:
             highest_GWA = GWA
             student_name = name
 # Print the name of the student with highest GWA and thier GWA
+print("Student with highest GWA: ", student_name)
+print("Student's GWA: ", highest_GWA)
